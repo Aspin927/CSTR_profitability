@@ -1,7 +1,7 @@
 # CSTR Profit vs. Volume Simulation
 
-This project simulates and visualizes the profit as a function of reactor volume in a Continuous Stirred Tank Reactor (CSTR) system. Currently the model is in its very early stages and is only able to simulate isothermal first order elementary reactions. If I get more motivation, support for non-first order reactions will be included as well as a more comprehensive consideration of capital and operating costs.
-The graphical interface allows users to adjust parameters dynamically and observe the resulting profit behavior.
+This project simulates and visualizes the profit as a function of reactor volume in a Continuous Stirred Tank Reactor (CSTR) system. Currently the model is in its very early stages and is only able to simulate isothermal first order elementary reactions. If I get more motivation, support for non-first order reactions, advanced reaction kinetics involving parallel and series reactions, multiple streams will be included as well as a more comprehensive consideration of capital and operating costs to more realistically reflect practical scenatios. 
+I am currently too demotivated for that
 
 This is part of a school project and is by no means a very accurate model that should be used to make any real world implications (yet). Please if you are tasked with creating a process involving a CSTR please reconsider using the code of a guy who has not even finished his degree.
 
@@ -9,7 +9,7 @@ With that being said, this code can help with the very early stage of building a
 
 ## Features
 
-- **Interactive GUI**: Built with `Tkinter`, the application provides an intuitive interface for parameter adjustment.
+- **Interactive GUI**: Built with `Tkinter`, the application provides an intuitive interface for parameter adjustment. The GUI allows users to adjust and observe the resulting profit behavior.
 - **Dynamic Plotting**: Uses `Matplotlib` to dynamically plot the profit as a function of reactor volume.
 - **Optimal Profit Calculation**: Automatically determines the reactor volume that maximizes profit and displays it on the graph.
 
