@@ -1,6 +1,11 @@
 # CSTR Profit vs. Volume Simulation
 
-This project simulates and visualizes the profit as a function of reactor volume in a Continuous Stirred Tank Reactor (CSTR) system. The graphical interface allows users to adjust parameters dynamically and observe the resulting profit behavior.
+This project simulates and visualizes the profit as a function of reactor volume in a Continuous Stirred Tank Reactor (CSTR) system. Currently the model is in its very early stages and is only able to simulate isothermal first order elementary reactions. If I get more motivation, support for non-first order reactions will be included as well as a more comprehensive consideration of capital and operating costs.
+The graphical interface allows users to adjust parameters dynamically and observe the resulting profit behavior.
+
+This is part of a school project and is by no means a very accurate model that should be used to make any real world implications (yet). Please if you are tasked with creating a process involving a CSTR please reconsider using the code of a guy who has not even finished his degree.
+
+With that being said, this code can help with the very early stage of building a comprehensive CSTR model and as such it is completely open and free to use if you can find some practical use for it. It would make me happy
 
 ## Features
 
